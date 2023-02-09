@@ -1,0 +1,304 @@
+/*reset*/
+*{ 
+    margin: 0; 
+    padding: 0;
+    font-family: Adigiana Extreme;
+    color: #0b0c10;
+}
+
+/*font set*/
+@font-face {
+    font-family: 'Adigiana Extreme';
+    src: url('fonts/adigiana_extreme-webfont.woff2') format('woff2'),
+      url('fonts/adigiana_extreme-webfont.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* body */
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
+/*header*/
+header{
+    box-shadow: 15px 4px 10px 10px #00000040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+}
+.header__imglogo{
+    width: 70px;
+    height: auto;
+    display: flex;
+    padding: 3px 3px 3px 10px;
+}
+nav{
+    padding-right: 1vw;
+}
+.nav__li{
+    font-size: 20px;
+    font-weight: 200;
+    display: inline;
+    padding: 7px;
+    font-weight: 200;
+}
+
+/* Main */
+main{
+    grid-area: main;
+}
+
+/*Main-home*/
+#presentationBanner{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;   
+}
+#presentationBanner div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+.presentationBanner__image{
+    padding-top: 35px;
+    width: 350px;
+}
+.presentationBanner__titule{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.presetnationBanner__subtitule{
+    padding-top: 10px;
+    /* width: 500px; */
+    text-align: center;
+    font-weight: 200;
+}
+#testimonies__titule{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#testimonies__titule h2{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+}
+#testimonies__cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.cardTestimonies{
+    border-radius: 25px;
+    background-color: #7bffff46;
+    height: 390 px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
+}
+.cardTestimonies__name{
+   padding-top: 10px;
+}
+.testimonies__image{
+    border-radius: 20px;
+    padding: 5px;
+    height: 45%;
+    width: 85%;
+}
+.cardTestimonies__text{
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+/*Main-Petsitter*/
+#petsitterBanner{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.petsitterBanner__titule{
+    font-size: 50px;
+    text-shadow: 2px 4px 10px white;
+}
+.petsitterBanner__subtitule{
+    padding-top: 10px;
+    width: 500px;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white;
+}
+#petsitterForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* Main-Dogtrainig */
+#dogtrainigBanner{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./images/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.dogtrainigBanner__titule{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 4px 10px white;
+}
+.dogtrainigBanner__subtitule{
+    padding-top: 10px;
+    width: 500px;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white;
+}
+#dogtrainingVermas{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main-Workwithus */
+#workwithusBanner{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+.workwithusBanner__titule{
+    font-size: 50px;
+    text-shadow: 2px 4px 10px white;
+    background-color: rgba(255, 255, 255, 0.289);
+}
+.workwithusBanner__subtitule{
+    padding-top: 10px;
+    width: 500px;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white;
+    background-color: rgba(255, 255, 255, 0.289);
+}
+#workwithusForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7bffff46;
+
+}
+
+/* Main-About */
+
+#aboutusBanner{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+.aboutusBanner__card{
+    border-radius: 25px;
+    margin: 10px;
+    box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
+    height: 220px;
+    width: 220px;
+}
+.aboutusBanner__card img{
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    
+}
+#aboutusHistory{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutusHistory__titule{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200;
+}
+.aboutusHistory__text{
+    text-align: center;
+    font-weight: 200;
+    width: 400px;
+}
+
+
+
+
+/* General */
+.formBasic{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.formBasic label{
+    padding-left: 10px;
+    font-size: 20px;
+}
+button{
+    height: 50px;
+    font-size: 30px;
+    border-width: 0 10px ;
+    border-radius: 10px;
+    border-color: #FEB4FF;
+    background-color: #FEB4FF;
+    color: white;
+}
+
+
+/*footer*/
+footer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: footer;
+}
+.footerCopyrights{
+    display: flex;
+    padding: 10px 0px 20px 0px;
+}
