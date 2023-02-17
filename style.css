@@ -28,20 +28,13 @@ body{
 
 /*header*/
 header{
-    box-shadow: 15px 4px 20px 20px #FEB4FF50;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    box-shadow: 15px 4px 20px 20px #FEB4FF50;                                                                                               
     grid-area: header;
 }
 .header__imglogo{
     width: 70px;
     height: auto;
-    display: flex;
     padding: 3px 3px 3px 10px;
-}
-nav{
-    padding-right: 1vw;
 }
 .nav__li{
     font-size: 20px;
@@ -205,7 +198,7 @@ main{
     justify-content: center;
     background-image: url(./images/banner5.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     
 }
@@ -239,7 +232,7 @@ main{
     align-items: center;
     background-image: url(./images/banner3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     flex-wrap: wrap;
 }
@@ -277,6 +270,9 @@ main{
 
 
 /* General */
+a{
+    color: #0b0c10;
+}
 .formBasic{
     padding: 10px 20px;
     display: flex;
