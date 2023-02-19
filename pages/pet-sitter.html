@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Guardería - Guaudería</title>
@@ -32,55 +33,102 @@
     </header>
     <Main>
         <section id="petsitterBanner">
-            <h1 class="petsitterBanner__titule">Guardería</h1>
-            <h2 class="petsitterBanner__subtitule">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio optio a sed sit? Inventore voluptatibus sit voluptatem eum vero, quia deleniti non. Officia libero, eveniet beatae quas tempora sunt illum?</h2>
+            <h1 class="petsitterBanner__titule animate__animated animate__fadeInLeft">Guardería</h1>
+            <h2 class="petsitterBanner__subtitule animate__animated animate__fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio optio a sed sit? Inventore voluptatibus sit voluptatem eum vero, quia deleniti non. Officia libero, eveniet beatae quas tempora sunt illum?</h2>
         </section>
         <section id="petsitterForm">
-            <div class="petsitterForm__left">
-                <div class="formBasic">
-                    <label for="">Ciudad</label>
-                    <input id="fullname" type="text">
-                </div>
-                    <div class="formBasic">
-                    <label for="">Número de mascotas</label>
-                <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Nombre</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Nombre</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Especie</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Especie</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Día de llegada</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Hora</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Día de retiro</label>
-                    <input id="fullname" type="text">
-                </div>
-                <div class="formBasic">
-                    <label for="">Hora</label>
-                    <input id="fullname" type="text">
-                </div>
-            </div>
-            <div class="formButton">
-                <button>Consultar disponibilidad</button>
-            </div>      
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="row">
+                            <div class="formBasic"> 
+                                <label for="">Ciudad</label>
+                                <input id="fullname" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="formBasic"> 
+                                <label for="">Cantidad de mascotas</label>
+                                <input id="fullname" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-6">
+                                <div class="formBasic">
+                                    <label for="">Nombre</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <div class="formBasic">
+                                    <label for="">Especie</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-6">
+                                <div class="formBasic">
+                                    <label for="">Nombre</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <div class="formBasic">
+                                    <label for="">Especie</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="formBasic">
+                                    <label for="">Día de llegada</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="formBasic">
+                                    <label for="">Hora</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="formBasic">
+                                    <label for="">Día de retiro</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="formBasic">
+                                    <label for="">Hora</label>
+                                    <input id="fullname" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="formBasic">
+                                <label for="">Email</label>
+                                <input id="fullname" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="formBasic">
+                                <label for="">Celular</label>
+                                <input id="fullname" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="formButton">
+                                <button>Consultar disponibilidad</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>     
         </section>
     </Main>
     <footer>
