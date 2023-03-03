@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Adigiana Extreme;
+  src: url(../../fonts/adigiana_extreme-webfont.woff2); }
+
+* {
+  font-family: Adigiana Extreme;
+  color: #0b0c10; }
+
+a {
+  color: #0b0c10; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: grid;
+  grid-template-areas: "header" "main" "footer"; }
+
+header {
+  box-shadow: 0px 4px 20px 20px #FEB4FF50;
+  grid-area: header; }
+  header .header__imglogo {
+    width: 70px;
+    height: auto;
+    padding: 3px 3px 3px 10px; }
+  header .nav__li {
+    font-size: 20px;
+    font-weight: 200;
+    display: inline;
+    padding: 7px;
+    font-weight: 200; }
+
+main {
+  grid-area: main; }
+
+footer {
+  padding-top: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: footer; }
+  footer .footerCopyrights {
+    display: flex;
+    padding: 10px 0px 20px 0px; }
+
+.presentationBannerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.presentationBanner__image {
+  padding-top: 35px;
+  width: 35vw; }
+
+.presentationBanner__titule {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center; }
+
+.presetnationBanner__subtitule {
+  padding-top: 10px 0px;
+  /* width: 500px; */
+  text-align: center;
+  font-weight: 200; }
+
+#testimonies {
+  margin-top: 15vw;
+  background-color: rgba(254, 180, 255, 0.504727);
+  box-shadow: 15px 4px 20px 20px rgba(254, 180, 255, 0.504727); }
+  #testimonies #testimonies__titule {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    #testimonies #testimonies__titule h2 {
+      font-size: 35px;
+      font-weight: 200;
+      text-align: center; }
+
+#testimonies__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  #testimonies__cards .cardTestimonies {
+    border-radius: 25px;
+    background: #feb4ff;
+    background: linear-gradient(186deg, rgba(254, 180, 255, 0.504727) 0%, rgba(123, 255, 255, 0.493522) 100%);
+    width: 230px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.4s linear; }
+  #testimonies__cards .cardTestimonies:hover {
+    transform: scale(1.15, 1.15);
+    transition: all 0.4s linear; }
+  #testimonies__cards .cardTestimonies__name {
+    padding-top: 10px; }
+  #testimonies__cards .testimonies__image {
+    border-radius: 20px;
+    padding: 5px;
+    height: 45%;
+    width: 85%; }
+  #testimonies__cards .cardTestimonies__text {
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: center; }

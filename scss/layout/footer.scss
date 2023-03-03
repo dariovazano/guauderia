@@ -1,0 +1,11 @@
+footer{
+    padding-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: footer;
+    .footerCopyrights{
+        display: flex;
+        padding: 10px 0px 20px 0px;
+    }
+}

@@ -1,0 +1,16 @@
+header{
+    box-shadow: 0px 4px 20px 20px #FEB4FF50;                                                                                               
+    grid-area: header;
+    .header__imglogo{
+        width: 70px;
+        height: auto;
+        padding: 3px 3px 3px 10px;
+    }
+    .nav__li{
+        font-size: 20px;
+        font-weight: 200;
+        display: inline;
+        padding: 7px;
+        font-weight: 200;
+    }
+}
