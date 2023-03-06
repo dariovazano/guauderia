@@ -1,6 +1,6 @@
 @font-face {
   font-family: Adigiana Extreme;
-  src: url(../../fonts/adigiana_extreme-webfont.woff2); }
+  src: url(../../fonts/AdigianaExtreme.ttf); }
 
 * {
   font-family: Adigiana Extreme;
@@ -13,12 +13,60 @@ a {
   margin: 0;
   padding: 0; }
 
+button {
+  height: 50px;
+  font-size: 30px;
+  border-width: 0 10px;
+  border-radius: 8px;
+  background-color: #7bffff7e;
+  border-color: #7bffff7e;
+  color: black;
+  cursor: pointer;
+  transition: all 0.4s ease; }
+
+.formbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px; }
+
+button:hover {
+  color: white;
+  border-color: #FEB4FF;
+  background-color: #FEB4FF;
+  transition: all 0.4s ease; }
+
+.formBasic {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column; }
+
+.formBasic input {
+  border-radius: 8px;
+  border: none;
+  background: #feb4ff;
+  background: linear-gradient(186deg, rgba(254, 180, 255, 0.504727) 0%, rgba(123, 255, 255, 0.493522) 100%); }
+
+.formBasic label {
+  padding-left: 10px;
+  padding-bottom: 3px;
+  font-size: 20px; }
+
+.waveup {
+  background-image: url(../../images/wave-up.svg);
+  height: 100px;
+  background-size: cover; }
+
+.wavedown {
+  background-image: url(../../images/wave-dow.svg);
+  height: 100px;
+  background-size: cover; }
+
 body {
   display: grid;
   grid-template-areas: "header" "main" "footer"; }
 
 header {
-  box-shadow: 0px 4px 20px 20px #FEB4FF50;
   grid-area: header; }
   header .header__imglogo {
     width: 70px;
@@ -35,7 +83,8 @@ main {
   grid-area: main; }
 
 footer {
-  padding-top: 4vw;
+  background-color: #feb4ff;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +100,6 @@ footer {
   justify-content: center; }
 
 .presentationBanner__image {
-  padding-top: 35px;
   width: 35vw; }
 
 .presentationBanner__titule {
@@ -67,9 +115,7 @@ footer {
   font-weight: 200; }
 
 #testimonies {
-  margin-top: 15vw;
-  background-color: rgba(254, 180, 255, 0.504727);
-  box-shadow: 15px 4px 20px 20px rgba(254, 180, 255, 0.504727); }
+  background-color: #feb4ff; }
   #testimonies #testimonies__titule {
     height: 100px;
     display: flex;
@@ -86,8 +132,7 @@ footer {
   flex-wrap: wrap; }
   #testimonies__cards .cardTestimonies {
     border-radius: 25px;
-    background: #feb4ff;
-    background: linear-gradient(186deg, rgba(254, 180, 255, 0.504727) 0%, rgba(123, 255, 255, 0.493522) 100%);
+    background-color: white;
     width: 230px;
     margin: 10px;
     display: flex;
@@ -110,3 +155,153 @@ footer {
     font-size: 14px;
     padding: 0px 10px;
     text-align: center; }
+
+.knowAboutUsButton {
+  padding: 50px;
+  display: flex;
+  justify-content: center; }
+
+#petsitterBanner {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; }
+  #petsitterBanner .petsitterBanner__titule {
+    font-size: 50px;
+    text-shadow: 2px 4px 10px white; }
+  #petsitterBanner .petsitterBanner__subtitule {
+    width: 70vw;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white; }
+
+.petsitterimage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vw;
+  background-image: url(../../images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 10%;
+  background-attachment: fixed; }
+  .petsitterimage img {
+    width: 100%; }
+
+#petsitterForm {
+  padding: 0 15px 0 15px;
+  height: fit-content; }
+
+#dogtrainigBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  background-image: url(../../images/banner4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0px; }
+  #dogtrainigBanner img {
+    width: 100%; }
+  #dogtrainigBanner .dogtrainigBanner__titule {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 4px 10px white; }
+  #dogtrainigBanner .dogtrainigBanner__subtitule {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white; }
+
+.align-items-center {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important; }
+
+#dogtraininggiff img {
+  padding: 40px;
+  width: 100%;
+  border-radius: 60px; }
+
+#dogtrainingCarrusel {
+  background-color: #feb4ff; }
+  #dogtrainingCarrusel .carousel {
+    border-radius: 60px;
+    overflow: hidden; }
+  #dogtrainingCarrusel img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 60px; }
+
+#dogtrainingVermas {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#workwithusBanner {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../images/banner5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(1.5); }
+  #workwithusBanner img {
+    width: 100%; }
+
+#workwithusForm {
+  margin: 10px 40px 0px 40px; }
+  #workwithusForm .workwithusBanner__titule {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 4px 10px white; }
+  #workwithusForm .workwithusBanner__subtitule {
+    padding-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 200;
+    text-shadow: 1px 1px 10px white; }
+
+#aboutusCarousel {
+  background-color: #feb4ff; }
+  #aboutusCarousel .carousel {
+    border-radius: 60px;
+    overflow: hidden; }
+  #aboutusCarousel img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 60px; }
+
+.aboutusBanner__card {
+  border-radius: 25px;
+  margin: 10px;
+  box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
+  height: 220px;
+  width: 220px; }
+
+.aboutusBanner__card img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%; }
+
+#aboutusHistory {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.aboutusHistory__titule {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 200; }
+
+.aboutusHistory__text {
+  text-align: center;
+  font-weight: 200;
+  width: 400px; }

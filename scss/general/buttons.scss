@@ -1,0 +1,23 @@
+button{
+    height: 50px;
+    font-size: 30px;
+    border-width: 0 10px ;
+    border-radius: 8px;
+    background-color: #7bffff7e;
+    border-color: #7bffff7e;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.formbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+button:hover{
+    color: white;
+    border-color: #FEB4FF;
+    background-color: #FEB4FF;
+    transition: all 0.4s ease;
+}

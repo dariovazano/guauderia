@@ -1,6 +1,10 @@
 //general
 @import "./general/typography.scss";
 @import "./general/reset.scss";
+@import "./general/buttons.scss";
+@import "./general/colors.scss";
+@import "./general/forms.scss";
+@import "./general/waves.scss";
 
 
 //layot
@@ -10,4 +14,8 @@
 @import "./layout/footer.scss";
 
 //pages
-@import "./pages/index.scss"
+@import "./pages/index.scss";
+@import "./pages/pet-sitter.scss";
+@import "./pages/dog-trainig.scss";
+@import "./pages/work-with-us.scss";
+@import "./pages/about-us.scss";

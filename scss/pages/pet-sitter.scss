@@ -1,0 +1,38 @@
+#petsitterBanner{
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    .petsitterBanner__titule{
+        font-size: 50px;
+        text-shadow: 2px 4px 10px white;
+    }
+    .petsitterBanner__subtitule{
+        width: 70vw;
+        text-align: center;
+        font-weight: 200;
+        text-shadow: 1px 1px 10px white;
+    }
+}
+
+.petsitterimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vw;
+    background-image: url(../../images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 10%;
+    background-attachment: fixed;
+    img{
+        width: 100%;
+    }
+}
+
+#petsitterForm{
+    padding: 0 15px 0 15px;
+    height: fit-content;
+}
+

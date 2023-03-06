@@ -1,0 +1,17 @@
+
+.formBasic{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.formBasic input{
+    border-radius: 8px;
+    border: none;
+    background: rgb(254,180,255);
+    background: linear-gradient(186deg, rgba(254,180,255,0.5047268907563025) 0%, rgba(123,255,255,0.49352240896358546) 100%);
+}
+.formBasic label{
+    padding-left: 10px;
+    padding-bottom: 3px;
+    font-size: 20px;
+}

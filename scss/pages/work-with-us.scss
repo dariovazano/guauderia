@@ -1,0 +1,32 @@
+#workwithusBanner{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: brightness(1.5);
+    img{
+        width:100%;
+    }
+    
+}
+
+#workwithusForm{
+    margin: 10px 40px 0px 40px;
+    .workwithusBanner__titule{
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 2px 4px 10px white;
+    }
+    .workwithusBanner__subtitule{
+        padding-top: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: 200;
+        text-shadow: 1px 1px 10px white;
+    }
+}
