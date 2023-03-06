@@ -1,6 +1,6 @@
 @font-face {
   font-family: Adigiana Extreme;
-  src: url(../../fonts/AdigianaExtreme.ttf); }
+  src: url(../fonts/adigiana_extreme-webfont.woff2); }
 
 * {
   font-family: Adigiana Extreme;
@@ -53,12 +53,12 @@ button:hover {
   font-size: 20px; }
 
 .waveup {
-  background-image: url(../../images/wave-up.svg);
+  background-image: url(../images/wave-up.svg);
   height: 100px;
   background-size: cover; }
 
 .wavedown {
-  background-image: url(../../images/wave-dow.svg);
+  background-image: url(../images/wave-dow.svg);
   height: 100px;
   background-size: cover; }
 
@@ -181,7 +181,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   height: 50vw;
-  background-image: url(../../images/banner1.jpg);
+  background-image: url(../images/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 10%;
@@ -198,7 +198,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   height: 600px;
-  background-image: url(../../images/banner4.jpg);
+  background-image: url(../images/banner4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0px; }
