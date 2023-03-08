@@ -20,4 +20,9 @@ button:hover{
     border-color: #FEB4FF;
     background-color: #FEB4FF;
     transition: all 0.4s ease;
+    a{
+        color: $background;
+        transition: all 0.8s ease;
+    }
+    
 }

@@ -12,6 +12,8 @@ a {
 * {
   margin: 0;
   padding: 0; }
+  * a {
+    text-decoration: none; }
 
 button {
   height: 50px;
@@ -35,6 +37,9 @@ button:hover {
   border-color: #FEB4FF;
   background-color: #FEB4FF;
   transition: all 0.4s ease; }
+  button:hover a {
+    color: white;
+    transition: all 0.8s ease; }
 
 .formBasic {
   padding-top: 10px;
@@ -98,21 +103,19 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-
-.presentationBanner__image {
-  width: 35vw; }
-
-.presentationBanner__titule {
-  padding-top: 20px;
-  font-weight: 300;
-  font-size: 50px;
-  text-align: center; }
-
-.presetnationBanner__subtitule {
-  padding-top: 10px 0px;
-  /* width: 500px; */
-  text-align: center;
-  font-weight: 200; }
+  .presentationBannerdiv .presentationBanner__image {
+    width: 85%; }
+  .presentationBannerdiv .presentationBanner__titule {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center; }
+  .presentationBannerdiv .presetnationBanner__subtitule {
+    margin: 25px;
+    text-align: center;
+    font-weight: 200; }
+  .presentationBannerdiv .button_primary {
+    margin: 25px; }
 
 #testimonies {
   background-color: #feb4ff; }
@@ -122,9 +125,10 @@ footer {
     align-items: center;
     justify-content: center; }
     #testimonies #testimonies__titule h2 {
-      font-size: 35px;
+      font-size: 50px;
       font-weight: 200;
-      text-align: center; }
+      text-align: center;
+      text-shadow: white; }
 
 #testimonies__cards {
   display: flex;
@@ -152,7 +156,7 @@ footer {
     height: 45%;
     width: 85%; }
   #testimonies__cards .cardTestimonies__text {
-    font-size: 14px;
+    font-size: 17px;
     padding: 0px 10px;
     text-align: center; }
 
@@ -192,6 +196,8 @@ footer {
 #petsitterForm {
   padding: 0 15px 0 15px;
   height: fit-content; }
+  #petsitterForm h2 {
+    text-align: center; }
 
 #dogtrainigBanner {
   display: flex;
@@ -221,8 +227,8 @@ footer {
   align-items: center !important; }
 
 #dogtraininggiff img {
-  padding: 40px;
-  width: 100%;
+  padding: 20px 0;
+  width: 85%;
   border-radius: 60px; }
 
 #dogtrainingCarrusel {
@@ -231,8 +237,8 @@ footer {
     border-radius: 60px;
     overflow: hidden; }
   #dogtrainingCarrusel img {
-    padding: 20px;
-    width: 100%;
+    padding: 20px 0;
+    width: 85%;
     border-radius: 60px; }
 
 #dogtrainingVermas {
@@ -269,39 +275,48 @@ footer {
     text-shadow: 1px 1px 10px white; }
 
 #aboutusCarousel {
-  background-color: #feb4ff; }
+  background-color: #feb4ff;
+  padding-top: 20px; }
   #aboutusCarousel .carousel {
     border-radius: 60px;
-    overflow: hidden; }
-  #aboutusCarousel img {
-    padding: 20px;
-    width: 100%;
-    border-radius: 60px; }
+    overflow: hidden;
+    margin: 10px;
+    width: 90%; }
 
-.aboutusBanner__card {
-  border-radius: 25px;
-  margin: 10px;
-  box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
-  height: 220px;
-  width: 220px; }
-
-.aboutusBanner__card img {
-  border-radius: 20px;
-  height: 100%;
-  width: 100%; }
-
-#aboutusHistory {
-  padding-top: 30px;
+#aboutusHistoryUp {
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  background-color: white; }
+  #aboutusHistoryUp .aboutusHistory__titule {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200; }
+  #aboutusHistoryUp .aboutusHistory__text {
+    text-align: center;
+    font-weight: 200;
+    width: 90%; }
+  #aboutusHistoryUp .carousel {
+    border-radius: 60px;
+    overflow: hidden;
+    margin: 10px;
+    width: 90%; }
 
-.aboutusHistory__titule {
-  font-size: 40px;
-  text-align: center;
-  font-weight: 200; }
-
-.aboutusHistory__text {
-  text-align: center;
-  font-weight: 200;
-  width: 400px; }
+#aboutusHistoryDown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white; }
+  #aboutusHistoryDown .aboutusHistory__titule {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 200; }
+  #aboutusHistoryDown .aboutusHistory__text {
+    text-align: center;
+    font-weight: 200;
+    width: 90%; }
+  #aboutusHistoryDown .carousel {
+    border-radius: 60px;
+    overflow: hidden;
+    margin: 10px;
+    width: 90%; }

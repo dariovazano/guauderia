@@ -1,41 +1,56 @@
 #aboutusCarousel{
     background-color: $primarycolor;
+    padding-top: 20px;
     .carousel{
         border-radius: 60px;
         overflow: hidden;
-    }
-    img{
-        padding: 20px;
-        width: 100%;;
-        border-radius: 60px;
-    }   
+        margin: 10px;
+        width: 90%;
+    } 
 }
-.aboutusBanner__card{
-    border-radius: 25px;
-    margin: 10px;
-    box-shadow: 15px 4px 20px 20px rgba(0, 0, 0, 0.25);
-    height: 220px;
-    width: 220px;
-}
-.aboutusBanner__card img{
-    border-radius: 20px;
-    height: 100%;
-    width: 100%;
-    
-}
-#aboutusHistory{
-    padding-top: 30px;
+
+#aboutusHistoryUp{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: $background;
+    .aboutusHistory__titule{
+        font-size: 40px;
+        text-align: center;
+        font-weight: 200;
+    }
+    .aboutusHistory__text{
+        text-align: center;
+        font-weight: 200;
+        width: 90%;
+    }
+    .carousel{
+        border-radius: 60px;
+        overflow: hidden;
+        margin: 10px;
+        width: 90%;
+    } 
 }
-.aboutusHistory__titule{
-    font-size: 40px;
-    text-align: center;
-    font-weight: 200;
-}
-.aboutusHistory__text{
-    text-align: center;
-    font-weight: 200;
-    width: 400px;
+
+#aboutusHistoryDown{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    .aboutusHistory__titule{
+        font-size: 40px;
+        text-align: center;
+        font-weight: 200;
+    }
+    .aboutusHistory__text{
+        text-align: center;
+        font-weight: 200;
+        width: 90%;
+    }
+    .carousel{
+        border-radius: 60px;
+        overflow: hidden;
+        margin: 10px;
+        width: 90%;
+    } 
 }

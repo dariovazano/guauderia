@@ -29,19 +29,16 @@
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
-    align-items: center !important;
-    
+    align-items: center !important;    
 }
 
 #dogtraininggiff{
     img{
-        padding: 40px;
-        width: 100%;;
+        padding: 20px 0;
+        width: 85%;;
         border-radius: 60px;
     }   
 }
-
-
 
 
 #dogtrainingCarrusel{
@@ -51,8 +48,8 @@
         overflow: hidden;
     }
     img{
-        padding: 20px;
-        width: 100%;;
+        padding: 20px 0;
+        width: 85%;
         border-radius: 60px;
     }   
 }
