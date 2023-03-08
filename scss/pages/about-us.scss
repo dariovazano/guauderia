@@ -1,6 +1,20 @@
-#aboutusCarousel{
-    background-color: $primarycolor;
-    padding-top: 20px;
+
+#aboutusHistoryUp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background;
+    .aboutusHistory__titule{
+        font-size: 60px;
+        text-align: center;
+        font-weight: 200;
+    }
+    .aboutusHistory__text{
+        margin: 30px 0;
+        text-align: center;
+        font-weight: 200;
+        width: 90%;
+    }
     .carousel{
         border-radius: 60px;
         overflow: hidden;
@@ -9,21 +23,9 @@
     } 
 }
 
-#aboutusHistoryUp{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $background;
-    .aboutusHistory__titule{
-        font-size: 40px;
-        text-align: center;
-        font-weight: 200;
-    }
-    .aboutusHistory__text{
-        text-align: center;
-        font-weight: 200;
-        width: 90%;
-    }
+#aboutusCarousel{
+    background-color: $primarycolor;
+    padding-top: 20px;
     .carousel{
         border-radius: 60px;
         overflow: hidden;
@@ -38,11 +40,12 @@
     align-items: center;
     background-color: $background;
     .aboutusHistory__titule{
-        font-size: 40px;
+        font-size: 45px;
         text-align: center;
         font-weight: 200;
     }
     .aboutusHistory__text{
+        margin: 30px 0;
         text-align: center;
         font-weight: 200;
         width: 90%;

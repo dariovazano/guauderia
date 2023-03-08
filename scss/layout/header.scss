@@ -1,5 +1,8 @@
 header{                                                                                             
     grid-area: header;
+    .bg-body-tertiary{
+        background-color: $background !important;
+    }
     .header__imglogo{
         width: 70px;
         height: auto;
@@ -11,5 +14,6 @@ header{
         display: inline;
         padding: 7px;
         font-weight: 200;
+        text-align: center;
     }
 }

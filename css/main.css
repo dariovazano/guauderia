@@ -15,10 +15,16 @@ a {
   * a {
     text-decoration: none; }
 
+.align-items-center {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important; }
+
 button {
+  padding: 0 20px;
   height: 50px;
   font-size: 30px;
-  border-width: 0 10px;
   border-radius: 8px;
   background-color: #7bffff7e;
   border-color: #7bffff7e;
@@ -36,7 +42,8 @@ button:hover {
   color: white;
   border-color: #FEB4FF;
   background-color: #FEB4FF;
-  transition: all 0.4s ease; }
+  transition: all 0.4s ease;
+  border: width 0; }
   button:hover a {
     color: white;
     transition: all 0.8s ease; }
@@ -73,6 +80,8 @@ body {
 
 header {
   grid-area: header; }
+  header .bg-body-tertiary {
+    background-color: white !important; }
   header .header__imglogo {
     width: 70px;
     height: auto;
@@ -82,7 +91,8 @@ header {
     font-weight: 200;
     display: inline;
     padding: 7px;
-    font-weight: 200; }
+    font-weight: 200;
+    text-align: center; }
 
 main {
   grid-area: main; }
@@ -99,6 +109,7 @@ footer {
     padding: 10px 0px 20px 0px; }
 
 .presentationBannerdiv {
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +136,7 @@ footer {
     align-items: center;
     justify-content: center; }
     #testimonies #testimonies__titule h2 {
-      font-size: 50px;
+      font-size: 43px;
       font-weight: 200;
       text-align: center;
       text-shadow: white; }
@@ -161,6 +172,7 @@ footer {
     text-align: center; }
 
 .knowAboutUsButton {
+  background-color: white;
   padding: 50px;
   display: flex;
   justify-content: center; }
@@ -170,10 +182,15 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  background-color: white; }
   #petsitterBanner .petsitterBanner__titule {
-    font-size: 50px;
-    text-shadow: 2px 4px 10px white; }
+    font-size: 60px;
+    text-shadow: 2px 4px 10px white;
+    margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      #petsitterBanner .petsitterBanner__titule {
+        font-size: 50px; } }
   #petsitterBanner .petsitterBanner__subtitule {
     width: 70vw;
     text-align: center;
@@ -190,14 +207,18 @@ footer {
   background-size: cover;
   background-position: center 10%;
   background-attachment: fixed; }
+  @media (max-width: 768px) {
+    .petsitterimage {
+      height: 100vw; } }
   .petsitterimage img {
     width: 100%; }
 
 #petsitterForm {
-  padding: 0 15px 0 15px;
+  background-color: white;
   height: fit-content; }
   #petsitterForm h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 30px; }
 
 #dogtrainigBanner {
   display: flex;
@@ -212,7 +233,7 @@ footer {
     width: 100%; }
   #dogtrainigBanner .dogtrainigBanner__titule {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 2px 4px 10px white; }
   #dogtrainigBanner .dogtrainigBanner__subtitule {
     padding-top: 10px;
@@ -220,28 +241,41 @@ footer {
     font-weight: 200;
     text-shadow: 1px 1px 10px white; }
 
-.align-items-center {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important; }
-
-#dogtraininggiff img {
-  padding: 20px 0;
-  width: 85%;
-  border-radius: 60px; }
+#dogtraininggiff {
+  background-color: white; }
+  #dogtraininggiff h2 {
+    font-size: 40px;
+    text-align: center; }
+  #dogtraininggiff img {
+    padding: 20px 0;
+    width: 60%;
+    border-radius: 60px; }
+    @media (max-width: 768px) {
+      #dogtraininggiff img {
+        width: 85%; } }
 
 #dogtrainingCarrusel {
   background-color: #feb4ff; }
+  #dogtrainingCarrusel h2 {
+    font-size: 40px;
+    text-align: center; }
   #dogtrainingCarrusel .carousel {
     border-radius: 60px;
-    overflow: hidden; }
+    overflow: hidden;
+    width: 80%; }
+    @media (max-width: 768px) {
+      #dogtrainingCarrusel .carousel {
+        width: 85%; } }
   #dogtrainingCarrusel img {
     padding: 20px 0;
-    width: 85%;
+    width: 60%;
     border-radius: 60px; }
+    @media (max-width: 768px) {
+      #dogtrainingCarrusel img {
+        width: 85%; } }
 
 #dogtrainingVermas {
+  background-color: white;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -262,6 +296,7 @@ footer {
     width: 100%; }
 
 #workwithusForm {
+  background-color: white;
   margin: 10px 40px 0px 40px; }
   #workwithusForm .workwithusBanner__titule {
     font-size: 50px;
@@ -274,29 +309,30 @@ footer {
     font-weight: 200;
     text-shadow: 1px 1px 10px white; }
 
-#aboutusCarousel {
-  background-color: #feb4ff;
-  padding-top: 20px; }
-  #aboutusCarousel .carousel {
-    border-radius: 60px;
-    overflow: hidden;
-    margin: 10px;
-    width: 90%; }
-
 #aboutusHistoryUp {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white; }
   #aboutusHistoryUp .aboutusHistory__titule {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     font-weight: 200; }
   #aboutusHistoryUp .aboutusHistory__text {
+    margin: 30px 0;
     text-align: center;
     font-weight: 200;
     width: 90%; }
   #aboutusHistoryUp .carousel {
+    border-radius: 60px;
+    overflow: hidden;
+    margin: 10px;
+    width: 90%; }
+
+#aboutusCarousel {
+  background-color: #feb4ff;
+  padding-top: 20px; }
+  #aboutusCarousel .carousel {
     border-radius: 60px;
     overflow: hidden;
     margin: 10px;
@@ -308,10 +344,11 @@ footer {
   align-items: center;
   background-color: white; }
   #aboutusHistoryDown .aboutusHistory__titule {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     font-weight: 200; }
   #aboutusHistoryDown .aboutusHistory__text {
+    margin: 30px 0;
     text-align: center;
     font-weight: 200;
     width: 90%; }
