@@ -15,6 +15,9 @@
         text-align: center;
         font-size: 60px;
         text-shadow: 2px 4px 10px white;
+        @include mediaquery_mobile(){
+            font-size: 50px;
+        }
     }
     .dogtrainigBanner__subtitule{
         padding-top: 10px;
