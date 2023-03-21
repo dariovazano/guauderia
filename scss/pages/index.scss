@@ -33,7 +33,7 @@
 
 
 #testimonies{
-    background-color:rgb(254, 180, 255);
+    background-color: $primarycolor;
     // box-shadow: 15px 4px 20px 20px rgba(254,180,255,0.5047268907563025);
     #testimonies__titule{
         height: 100px;
@@ -44,7 +44,7 @@
             font-size: 43px;
             font-weight: 200;
             text-align: center;
-            text-shadow: white;
+            text-shadow: $background;
         }
     }    
     
