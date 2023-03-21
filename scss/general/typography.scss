@@ -3,8 +3,8 @@
     src: url(../fonts/adigiana_extreme-webfont.woff2);
 }
 *{font-family: Adigiana Extreme;
-    color: #0b0c10;
+    color: $font;
 }
 a{
-    color: #0b0c10;
+    color: $font;
 }

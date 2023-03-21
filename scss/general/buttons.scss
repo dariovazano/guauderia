@@ -1,11 +1,11 @@
-button{
+.button_primary{
     padding: 0 20px;
     height: 50px;
     font-size: 30px;
     border-radius: 8px;
-    background-color: #7bffff7e;
-    border-color: #7bffff7e;
-    color: black;
+    background-color: $secondarycolor;
+    border-color: $secondarycolor;
+    color: $contrast_background;
     cursor: pointer;
     transition: all 0.4s ease;
 }
@@ -15,10 +15,10 @@ button{
     align-items: center;
     height: 150px;
 }
-button:hover{
-    color: white;
-    border-color: #FEB4FF;
-    background-color: #FEB4FF;
+.button_primary:hover{
+    color: $background;
+    border-color: $primarycolor;
+    background-color: $primarycolor;
     transition: all 0.4s ease;
     border: width 0;;
     a{

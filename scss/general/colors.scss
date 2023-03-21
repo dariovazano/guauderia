@@ -2,3 +2,10 @@
 $primarycolor:#feb4ff;
 $secondarycolor:#7bffff7e;
 $background: white;
+$contrast_background: black;
+$font: black;
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $background !important;
+    }
+}
