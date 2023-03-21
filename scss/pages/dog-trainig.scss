@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 0px;
-    overflow: hidden;
+    overflow: hidden !important;
     // background-attachment: fixed;   
     img{
         width:100%;
@@ -16,7 +16,7 @@
         text-align: center;
         font-size: 60px;
         text-shadow: 2px 4px 10px $background;
-        overflow: hidden;
+        overflow: hidden !important;
         @include mediaquery_mobile(){
             font-size: 50px;
         }
@@ -26,55 +26,66 @@
         text-align: center;
         font-weight: 200;
         text-shadow: 1px 1px 10px $background;
-        overflow: hidden;
+        overflow: hidden !important;
     }
 }
 
 
 #dogtraininggiff{
+    overflow: hidden !important;
     background-color: $background;
     h2{
         font-size: 40px;
         text-align: center;
+        overflow: hidden !important;
     }
     img{
         padding: 20px 0;
         width: 60%;;
         border-radius: 60px;
+        overflow: hidden !important;
         @include mediaquery_mobile(){
             width: 85%;
+            overflow: hidden !important;
         }
     }   
 }
 
 
 #dogtrainingCarrusel{
+    overflow: hidden !important;
     background-color: $primarycolor;
     margin-bottom: 6px;
     h2{
         font-size: 40px;
         text-align: center;
+        overflow: hidden !important;
     }
     .carousel{
         border-radius: 60px;
         overflow: hidden;
         width: 80%;
+        overflow: hidden !important;
         @include mediaquery_mobile(){
             width: 85%;
+            overflow: hidden !important;
         }
     }
     img{
         padding: 20px 0;
         width: 60%;
         border-radius: 60px;
+        overflow: hidden !important;
         @include mediaquery_mobile(){
             width: 85%;
+            overflow: hidden !important;
         }
     }   
 }
 
 
 #dogtrainingVermas{
+    overflow: hidden !important;
     background-color: $background;
     height: 100px;
     display: flex;

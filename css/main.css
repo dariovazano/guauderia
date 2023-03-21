@@ -245,14 +245,14 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0px;
-  overflow: hidden; }
+  overflow: hidden !important; }
   #dogtrainigBanner img {
     width: 100%; }
   #dogtrainigBanner .dogtrainigBanner__titule {
     text-align: center;
     font-size: 60px;
     text-shadow: 2px 4px 10px white;
-    overflow: hidden; }
+    overflow: hidden !important; }
     @media (max-width: 768px) {
       #dogtrainigBanner .dogtrainigBanner__titule {
         font-size: 50px; } }
@@ -261,43 +261,54 @@ footer {
     text-align: center;
     font-weight: 200;
     text-shadow: 1px 1px 10px white;
-    overflow: hidden; }
+    overflow: hidden !important; }
 
 #dogtraininggiff {
+  overflow: hidden !important;
   background-color: white; }
   #dogtraininggiff h2 {
     font-size: 40px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden !important; }
   #dogtraininggiff img {
     padding: 20px 0;
     width: 60%;
-    border-radius: 60px; }
+    border-radius: 60px;
+    overflow: hidden !important; }
     @media (max-width: 768px) {
       #dogtraininggiff img {
-        width: 85%; } }
+        width: 85%;
+        overflow: hidden !important; } }
 
 #dogtrainingCarrusel {
+  overflow: hidden !important;
   background-color: #feb4ff;
   margin-bottom: 6px; }
   #dogtrainingCarrusel h2 {
     font-size: 40px;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden !important; }
   #dogtrainingCarrusel .carousel {
     border-radius: 60px;
     overflow: hidden;
-    width: 80%; }
+    width: 80%;
+    overflow: hidden !important; }
     @media (max-width: 768px) {
       #dogtrainingCarrusel .carousel {
-        width: 85%; } }
+        width: 85%;
+        overflow: hidden !important; } }
   #dogtrainingCarrusel img {
     padding: 20px 0;
     width: 60%;
-    border-radius: 60px; }
+    border-radius: 60px;
+    overflow: hidden !important; }
     @media (max-width: 768px) {
       #dogtrainingCarrusel img {
-        width: 85%; } }
+        width: 85%;
+        overflow: hidden !important; } }
 
 #dogtrainingVermas {
+  overflow: hidden !important;
   background-color: white;
   height: 100px;
   display: flex;
